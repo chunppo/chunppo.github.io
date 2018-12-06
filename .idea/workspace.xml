@@ -2,7 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6b0048-d643-43ce-9f60-19401c630e5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/duoshuo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-categories.liquid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-image.liquid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/total-categories.liquid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-24-markdown_demo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/jekyll/2016-07-30-welcome-to-jekyll.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/jekyll/2016-9-3-how-to-create-the-jekyll-theme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/jekyll/2016-9-3-stey-by-step-to-create-a-jekyll-theme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Postfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Sitefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/css/markdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/css/rouge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/css/rouge1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/duoshuo/embed.bluebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/duoshuo/embed.compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/duoshuo/embed.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/duoshuo/embed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/duoshuo/embed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/duoshuo/smilies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/avator.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/jekyll.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/jekyll/category.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/jekyll/duoshuo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/jekyll/jekyll-layout-include.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/markdown/markdown-css.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/markdown/markdown-parser.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/markdown/markdown-plain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/images/sicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/baiduTemplate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/jqPaginator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/jquery.duoshuo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/pagecache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/testDuoshuo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/testPagecache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3c/js/timeago.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +92,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +114,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chunppo.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chunppo.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -100,16 +157,15 @@
       <option name="presentableId" value="Default" />
       <updated>1543998209523</updated>
       <workItem from="1543998213015" duration="323000" />
-      <workItem from="1544055264365" duration="1374000" />
+      <workItem from="1544055264365" duration="1525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1697000" />
+    <option name="totallyTimeSpent" value="1848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
