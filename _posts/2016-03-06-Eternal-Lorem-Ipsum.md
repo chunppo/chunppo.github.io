@@ -20,5 +20,87 @@ Nam maximus tempor feugiat. Mauris tristique imperdiet nulla id egestas. Proin e
 <script src="https://gist.github.com/chunppo/fe3c8805b45faa4657b3075cce0cf216.js"></script>
 
 <pre><code>
-System.out.print("a");
+package com.example.thyme.webfluxthymeleafhttp;
+
+import com.sun.tools.corba.se.idl.constExpr.Or;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.util.Optional;
+
+public class OptionalTest {
+    public static void main(String[] args) {
+        getAddressCity(null);
+
+        Order order = new Order(1, new Member(2, new Address("city", "120001")));
+
+        getAddressCityForOptionalForSimple(order);
+    }
+
+    // 기본적인 null체
+    private static void getAddressCity(Order order) {
+        if (order != null) {
+            Member member = order.getMember();
+            if (member != null) {
+                Address address = member.getAddress();
+                if (address != null) {
+                    System.out.println(address.getCity());
+                    return;
+                }
+            }
+        }
+
+        System.out.println("Default!!");
+    }
+
+    // 잘못사용한 Optional
+    private static void getAddressCityForOptional(Order order) {
+        Optional<Order> orderOptional = Optional.ofNullable(order);
+        if (orderOptional.isPresent()) {
+            Optional<Member> memberOptional = Optional.ofNullable(orderOptional.get().getMember());
+            if (memberOptional.isPresent()) {
+                Optional<Address> addressOptional = Optional.ofNullable(memberOptional.get().getAddress());
+                if (addressOptional.isPresent()) {
+                    Optional<String> cityOptional = Optional.ofNullable(addressOptional.get().getCity());
+                    if (cityOptional.isPresent()) {
+                        System.out.println(cityOptional.get());
+                    }
+                }
+            }
+        }
+
+        System.out.println("Default!!");
+    }
+
+    private static void getAddressCityForOptionalForSimple(Order order) {
+        String s = Optional.ofNullable(order)
+                .flatMap(orderOptional -> Optional.ofNullable(orderOptional.getMember()))
+                .flatMap(memberOptional -> Optional.ofNullable(memberOptional.getAddress()))
+                .flatMap(addressOptional -> Optional.ofNullable(addressOptional.getCity()))
+                .orElse("Default!!");
+
+        System.out.println(s);
+    }
+}
+
+@Data
+@AllArgsConstructor
+class Order {
+    private Integer orderNo;
+    private Member member;
+}
+
+@Data
+@AllArgsConstructor
+class Member {
+    private Integer id;
+    private Address address;
+}
+
+@Data
+@AllArgsConstructor
+class Address {
+    private String city;
+    private String zipCode;
+}
 </code></pre>
