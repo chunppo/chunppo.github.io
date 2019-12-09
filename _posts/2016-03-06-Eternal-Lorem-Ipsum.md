@@ -108,12 +108,16 @@ class Address {
 <pre><code>
 package com.chunppo.reactive;
 
+import com.sun.deploy.util.ArrayUtil;
+import com.sun.tools.javac.util.ArrayUtils;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamTest {
     public static void main(String[] args) {
@@ -124,19 +128,23 @@ public class StreamTest {
                         new Person("Pamela", 23),
                         new Person("David", 12));
 
-        Map<Integer, Object> map = persons
+        Map<Integer, List<Person>> map = persons
                 .stream()
                 .collect(Collectors.toMap(
                         p -> p.age,
-                        p -> Arrays.asList(p.name),
+                        p -> Arrays.asList(p),
                         (name1, name2) -> {
-                            List lst = new ArrayList();
-                            lst.add(name1);
-                            lst.add(name2);
-                            return lst;
+                            System.out.println(name1);
+                            return name1;
                         }));
 
         System.out.println(map);
+
+        Map<Integer, List<Person>> map1 = persons
+                .stream()
+                .collect(Collectors.groupingBy(p -> p.age));
+
+        System.out.println(map1);
     }
 }
 
@@ -154,6 +162,7 @@ class Person {
         return name;
     }
 }
+
 
 </code></pre>
 
