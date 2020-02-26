@@ -13,3 +13,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu d
 
 Nam maximus tempor feugiat. Mauris tristique imperdiet nulla id egestas. Proin eget lobortis magna. Duis consectetur nibh at elit viverra congue. Ut eu turpis enim. Suspendisse laoreet, diam sed consequat sodales, felis dolor accumsan justo, nec scelerisque mi sem quis dolor. Etiam ornare venenatis massa, a suscipit ex. Ut quis lectus id nibh mattis rutrum. Nunc vel cursus eros, at blandit mi. Vivamus ac posuere libero.
 
+```java
+public class Chunppo {
+    private String name = 'name';
+}
+```
